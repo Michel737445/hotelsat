@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: hotelsat
+    env: python
+    runtime: python-3.11.6
+    buildCommand: ""
+    startCommand: python app.py
